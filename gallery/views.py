@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from gallery.models import Photo, Location
+from gallery.models import Photo, Location 
 
 # Create your views here.
 def index(request):
