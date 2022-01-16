@@ -1,4 +1,4 @@
-html{
+/* html{
     scroll-behavior: smooth;
 }
 
@@ -87,7 +87,6 @@ hr.style-one {
     background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
     }
 
-/* GALLERY */
 .gallery-block {
     padding-bottom: 60px;
     padding-top: 60px;
@@ -113,7 +112,6 @@ hr.style-one {
 
 .gallery-block.compact-gallery .item .image {
     transition: 0.8s ease;
-    /* transform: scale(2.0); */
 }
 
 .gallery-block.compact-gallery .item .info {
@@ -136,7 +134,6 @@ hr.style-one {
     opacity: 1;
     color: #fff;
     transition: 0.8s ease;
-    /* text-align: center; */
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
     background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.39));
 }
@@ -168,7 +165,6 @@ hr.style-one {
     }
 }
 
-/* NAVBAR */
 #nav a{
     color: #333;
 }
@@ -185,4 +181,4 @@ hr.style-one {
 
 .head{
     font-family: 'Megrim', cursive; 
-}
+} */

@@ -1,7 +1,7 @@
 from django.db import models
 import pyperclip
 import random
-from pyuploadcare.dj.models import ImageField
+# from pyuploadcare.dj.models import ImageField
 
 # Create your models here.
 
@@ -53,10 +53,10 @@ class Photo(models.Model):
     """
     name = models.CharField(max_length=244)
     description = models.TextField()
-    location = models.ForeignKey(Location)
+    location = models.ForeignKey(Location, on_delete=models.CASCADE)
     categories = models.ManyToManyField(Category)
     post_date = models.DateTimeField(auto_now_add=True)
-    image = ImageField(blank=True, manual_crop="800x800")
+    image = models.ImageField(blank=True)
 
     def __str__(self):
         """
